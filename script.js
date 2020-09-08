@@ -48,35 +48,60 @@ function generatePassword() {
 
   //Create arrays based on their answers using .push: 
 
-  if (useNumerical==true) {
+  if (useNumerical) {
   chosenChar.push(numerical);
   }
 
-  if (useLowerCase==true) {
+  if (useLowerCase) {
   chosenChar.push(lowerCase);
   }
 
-  if (useUpperCase==true) {
+  if (useUpperCase) {
   chosenChar.push(upperCase);
   }
 
-  if (useSpecialChar==true) {
+  if (useSpecialChar) {
   chosenChar.push(specialChar);
   }
 
   //See Arrays of the chosen variables. 
   console.log(chosenChar); 
 
-}
+  //Create a loop to loop chosen characters in array at random. 
+  for(var i=0; i < length; i++) {
 
-function randomizePassword () {
-  for (var i = 0; i < length; i++) {
-    
+    //Created new variables to select characters. 
+    var randomArrays;
+    var CharacterArray;
+    var randomNumber;
+    var passwordChosen; 
+
+    //Selects random password for user using a randomized arrays. 
+    randomArrays = (Math.floor(Math.random() * chosenChar.length));
+    console.log(randomArrays); //selects random arrays based on chosen character length. 
+
+    CharacterArray = chosenChar[randomArrays];
+    console.log(CharacterArray + " random array chosen"); 
+
+    randomNumber = (Math.floor(Math.random() * CharacterArray.length)); 
+    console.log("Selected character index in randomized order " + randomNumber); //randomly selects index number from selected array
+
+    passwordChosen = CharacterArray[randomNumber]; 
+    console.log(passwordChosen + " is the chosen password from this array"); //selects character from the chosen index number. 
+
+    password += passwordChosen //password
+
+  
   }
-}
+  return password;
+
+  
+} 
+
+
 
 
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword)
 
