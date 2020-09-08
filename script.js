@@ -46,8 +46,35 @@ function generatePassword() {
   //Check their answers..
   console.log ( {useNumerical, useLowerCase, useUpperCase, useSpecialChar});
 
-  //Create arrays based on their answers: 
+  //Create arrays based on their answers using .push: 
+
+  if (useNumerical==true) {
+  chosenChar.push(numerical);
+  }
+
+  if (useLowerCase==true) {
+  chosenChar.push(lowerCase);
+  }
+
+  if (useUpperCase==true) {
+  chosenChar.push(upperCase);
+  }
+
+  if (useSpecialChar==true) {
+  chosenChar.push(specialChar);
+  }
+
+  //See Arrays of the chosen variables. 
+  console.log(chosenChar); 
+
 }
+
+function randomizePassword () {
+  for (var i = 0; i < length; i++) {
+    
+  }
+}
+
 
 
 // Add event listener to generate button
