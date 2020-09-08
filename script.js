@@ -38,8 +38,15 @@ function generatePassword() {
   var chosenChar = []; //Array for the users selected characters. 
 
   //Confirms asking the user what type of characters they would like to use. 
+  var useNumerical = confirm("Would you like to have numbers in your password?");
+  var useLowerCase = confirm("Would you like to have lower case letters in your password?");
+  var useUpperCase = confirm("Would you like to have upper case letters?");
+  var useSpecialChar = confirm("Would you like to have any special characters in your password? Example: !@#$%^&*()_+");
 
+  //Check their answers..
+  console.log ( {useNumerical, useLowerCase, useUpperCase, useSpecialChar});
 
+  //Create arrays based on their answers: 
 }
 
 
