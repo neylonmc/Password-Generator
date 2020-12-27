@@ -28,15 +28,11 @@ SO I can have faith my accounts are secure and safe.
 
 Repo: https://neylonmc.github.io/Password-Generator/
 
-User Interface:
-
----
+### User Interface:
 
 <img src = "assets/images/UI.png" width="500px">
 
-Creating Password:
-
----
+### Creating Password:
 
 <img src = "assets/images/app.gif" width="500px">
 
