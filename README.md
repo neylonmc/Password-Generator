@@ -16,7 +16,7 @@ Password Generator that generates a random password based on user-selected crite
 
 ## User Story
 
-We use passwords every day. Password secruity is important. Instead of using your name or dogs name for your password, this application will allow users to make a unique password to keep their accounts secure.
+We use passwords every day. Password secruity is important. Instead of using your name or dog's name for your password, this application will allow users to make a unique password to keep their account's secure.
 
 ```
 AS an individual, I want to protect my accounts from hackers.
