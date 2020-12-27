@@ -7,7 +7,6 @@ Password Generator that generates a random password based on user-selected crite
 ## Table of Contents
 
 - [User Story](#user-story)
-- [Installation](#installation)
 
 - [Links and Screenshots](#links-and-screenshots)
 
@@ -29,11 +28,17 @@ SO I can have faith my accounts are secure and safe.
 
 Repo: https://neylonmc.github.io/Password-Generator/
 
-- User Interface:
-  <img src = "assets/images/UI.png" width="500px">
+User Interface:
 
-- Creating Password:
-  <img src = "assets/images/app.gif" width="500px">
+---
+
+<img src = "assets/images/UI.png" width="500px">
+
+Creating Password:
+
+---
+
+<img src = "assets/images/app.gif" width="500px">
 
 ## Created by
 
